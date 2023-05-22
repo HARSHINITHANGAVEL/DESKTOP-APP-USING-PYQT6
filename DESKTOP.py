@@ -1,12 +1,12 @@
 
 import sys
 import random
-from PyQt6.QtWidgets import QColorDialog
+from PyQt5.QtWidgets import QColorDialog
 import requests
-from PyQt6.QtCore import QPoint,Qt
-from PyQt6 import QtCore, QtGui, QtWidgets, uic
-from PyQt6.QtGui import QPixmap, QPainter,QColor,QFontMetrics
-from PyQt6.QtWidgets import QApplication, QLabel, QMainWindow, QWidget, QVBoxLayout, QPushButton
+from PyQt5.QtCore import QPoint,Qt
+from PyQt5 import QtCore, QtGui, QtWidgets, uic
+from PyQt5.QtGui import QPixmap, QPainter,QColor,QFontMetrics
+from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QWidget, QVBoxLayout, QPushButton
 
 
 class DraggableImageLabel(QLabel):
